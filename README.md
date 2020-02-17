@@ -9,7 +9,7 @@ We introduce a synthetic dataset for remote sensing image segmentation based on 
 
 The figure below shows an ofﬁcial map of the game GTA-V - the city of Los Santos, a ﬁctional city featured in the game’s open world, covers an area of over 100 km^2 with unprecedented details: (a) The satellite imagery rendered from aerial view. (b) An in-game frame rendered from the “ﬁrst-person perspective”. (c) A part of the game map that is used to build our dataset. (d) The legend of the map (in a similar fashion of Google maps). Different to the previous datasets  ([G. Ros et al. CVPR16](https://www.cv-foundation.org/openaccess/content_cvpr_2016/html/Ros_The_SYNTHIA_Dataset_CVPR_2016_paper.html); [S. Richter et al. ECCV16](https://arxiv.org/abs/1608.02192))  that focuses on rendering street-view images from the “ﬁrst-person perspective” (like (b)), we build our dataset from the “aerial perspective” of the city (c,d).
 
-![](imgs\game_data.jpg)
+![](imgs/game_data.jpg)
 
 We build the ground truth of our dataset based on its ofﬁcial map legend (8000×8000 pixels, provided by [Damon Pollard](http://blog.damonpollard.com/grand-theft-auto-v-the-map/)). We manually annotated the building regions in a pixel-wise manner. We provide two formats for our dataset: 1) 8000x8000 satellite map; 2) 500x500 slices. The follow table gives the statistics of our dataset.
 
@@ -23,7 +23,7 @@ We build the ground truth of our dataset based on its ofﬁcial map legend (8000
 
 The follow figure shows four image slices from our dataset and the corresponding ground truth.
 
-![](imgs\dataset.jpg)
+![](imgs/dataset.jpg)
 
 
 
