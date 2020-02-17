@@ -11,12 +11,12 @@ The figure below shows an ofﬁcial map of the game GTA-V - the city of Los Sant
 
 ![](imgs/game_data.jpg)
 
-We build the ground truth of our dataset based on its ofﬁcial map legend (8000×8000 pixels, provided by [Damon Pollard](http://blog.damonpollard.com/grand-theft-auto-v-the-map/)). We manually annotated the building regions in a pixel-wise manner. We provide two formats for our dataset: 1) 3000x3000 satellite map; 2) 500x500 slices. For the second format, the images are cropped with an overlap of 250 pixels. The follow table gives the statistics of our dataset.
+We build the ground truth of our dataset based on its ofﬁcial map legend (8000×8000 pixels, provided by [Damon Pollard](http://blog.damonpollard.com/grand-theft-auto-v-the-map/), with a 3000x3000 urban region selected). We manually annotated the building regions in a pixel-wise manner. We provide two formats for our dataset: 1) 3000x3000 satellite map; 2) 500x500 slices. For the second format, the images are cropped with an overlap of 250 pixels. The follow table gives the statistics of our dataset.
 
 | Dataset                | GTA-V-SID                                                    |
 | ---------------------- | ------------------------------------------------------------ |
 | Image Source           | GTA-V High-resolution Map (Los Santos, by [Damon Pollard](http://blog.damonpollard.com/grand-theft-auto-v-the-map/)) |
-| Size of the map        | 8000x8000 pixels                                             |
+| Size of the map        | 3000x3000 pixels                                             |
 | Resolution             | ∼1.0 m/pixel                                                 |
 | Size of image slice    | 500x500 pixels                                               |
 | Number of image slices | 121                                                          |
